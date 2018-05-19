@@ -10,7 +10,7 @@ import sys
 from iothub_client import IoTHubClient, IoTHubClientError, IoTHubTransportProvider, IoTHubClientResult
 from iothub_client import IoTHubMessage, IoTHubMessageDispositionResult, IoTHubError, DeviceMethodReturnValue
 import config as config
-from ping import ping 
+from ping import ping
 import RPi.GPIO as GPIO
 import re
 from telemetry import Telemetry
