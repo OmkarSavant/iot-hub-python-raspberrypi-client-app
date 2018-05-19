@@ -75,7 +75,7 @@ if not is_correct_connection_string():
 MSG_TXT = "{\"deviceId\": \"Raspberry Pi - Python\",\"distance\": %f}"
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(config.GPIO_PIN_ADDRESS, GPIO.OUT)
+GPIO.setup(config.GPIO_PIN_ADDRESS, GPIO.OUT) #Setup LED pin
 
 def receive_message_callback(message, counter):
     global RECEIVE_CALLBACKS
